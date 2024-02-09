@@ -19,6 +19,9 @@ module.exports = {
         primary: "#B63E96", // dark pink
         primaryDark: "#58E6D9", //electric blue
       },
+      animation: {
+        'spin-slow': 'spin 8s linear infinite',
+      },
     },
   },
   plugins: [],
