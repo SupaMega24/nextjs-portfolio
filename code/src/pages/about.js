@@ -4,6 +4,8 @@ import Head from 'next/head'
 import React from 'react'
 import Image from 'next/image'
 import profilePic from "../../public/images/profile/profilepic.jpeg"
+import Skills from '@/components/Skills'
+import Experience from '@/components/Experience'
 
 const about = () => {
     return (
@@ -64,6 +66,10 @@ const about = () => {
                             </div>
                         </div> */}
 
+                    </div>
+                    <div>
+                        <Skills />
+                        <Experience />
                     </div>
                 </Layout>
             </main>
