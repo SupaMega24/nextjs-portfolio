@@ -12,9 +12,11 @@ const FeaturedProject = ({ type, title, summary, img, link, github }) => {
     return (
         <article className='w-full flex items-center justify-between
             rounded-3xl border border-solid border-dark bg-light
-            shadow-2xl p-8'
+            shadow-2xl p-8 relative rounded-br-2xl'
         >
-
+            <div className='absolute top-0 -right-2 -z-10 w-[100.8%] h-[103%] 
+                rounded-[2.2rem] bg-dark rounded-br-3xl'
+            />
             <Link href={link} target="_blank" className='w-1/2 cursor-pointer
                 overflow-hidden rounded-lg'
             >
@@ -45,6 +47,48 @@ const FeaturedProject = ({ type, title, summary, img, link, github }) => {
     )
 }
 
+const Project = ({ title, type, img, link, github }) => {
+    return (
+        <article className='w-full flex items-center justify-center rounded-2xl
+            border border-solid border-dark bg-light p-6 relative flex-col shadow-xl'
+
+        >
+            <div className='absolute top-0 -right-2 -z-10 w-[101.8%] h-[103%] 
+                rounded-[2rem] bg-dark rounded-br-3xl'
+            />
+            <Link href={link} target="_blank" className='w-full cursor-pointer
+                overflow-hidden rounded-lg'
+            >
+                <Image src={img} alt={title} className='w-full h-auto' />
+            </Link>
+
+            <div className='w-full flex flex-col items-start justify-between mt-4'>
+                <span className='text-blue font-medium text-xl '>
+                    {type}
+                </span>
+                <Link href={link} target="_blank" className='hover:underline underline-offset-2'>
+                    <h2 className='my-2 w-full text-left text-2xl font-bold'>
+                        {title}
+                    </h2>
+                </Link>
+
+                <div className='mt-2 flex items-center justify-between w-full'>
+
+                    <Link href={link} target="_blank" className='underline
+                        underline-offset-2 text-lg font-semibold'
+                    >
+                        Visit Site
+                    </Link>
+                    <Link href={github} target="_blank" className='w-8'>
+                        <GithubIcon />
+                    </Link>
+
+                </div>
+            </div>
+        </article>
+    )
+}
+
 const projects = () => {
     return (
         <>
@@ -57,7 +101,7 @@ const projects = () => {
                 <Layout className='pt-16'>
                     <AnimatedText text="Imagination Builds Knowledge!" className='!text-6xl mb-16' />
 
-                    <div className='grid grid-cols-12 gap-24'>
+                    <div className='grid grid-cols-12 gap-24 gap-y-32'>
                         <div className='col-span-12'>
                             <FeaturedProject
 
@@ -74,11 +118,23 @@ local currency."
                         </div>
 
                         <div className='col-span-6'>
-                            Project 1
+                            <Project
+                                title="Crypto Screener Application"
+                                img={project1}
+                                link="/"
+                                github="/"
+                                type="Project"
+                            />
                         </div>
 
                         <div className='col-span-6'>
-                            Project 2
+                            <Project
+                                title="Crypto Screener Application"
+                                img={project1}
+                                link="/"
+                                github="/"
+                                type="Project"
+                            />
                         </div>
                     </div>
 
