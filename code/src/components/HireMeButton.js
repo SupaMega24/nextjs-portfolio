@@ -8,7 +8,9 @@ const HireMeButton = () => {
             flex items-center justify-center overflow-hidden'
         >
             <div className='w-48 h-auto flex items-center justify-center relative'>
-                <CircularText className={"fill-dark animate-spin-slow"} />
+
+                <CircularText className={"fill-dark animate-spin-slow dark:fill-light"} />
+
                 <Link href="mailto:victoriaeld24@gmail.com"
                     className='flex items-center justify-center absolute 
                     left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 bg-blue

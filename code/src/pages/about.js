@@ -15,7 +15,7 @@ const about = () => {
                 <title>CharlieJ | About Page</title>
                 <meta name="description" content="any description" />
             </Head>
-            <main className='flex w-full flex-col items-center justify-center'>
+            <main className='flex w-full flex-col items-center justify-center dark:text-light'>
                 <Layout className='pt-16'>
                     <AnimatedText text="Passion Ignites Innovation!" className='!text-6xl mb-16' />
                     <div className='grid w-full grid-cols-8 gap-16'>
