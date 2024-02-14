@@ -20,7 +20,7 @@ const about = () => {
                     <AnimatedText text="Passion Ignites Innovation!" className='!text-6xl mb-16' />
                     <div className='grid w-full grid-cols-8 gap-16'>
                         <div className='col-span-4 flex flex-col items-start justify-start'>
-                            <h2 className='mb-4 text-lg font-bold uppercase text-dark/75'>A Little About Me</h2>
+                            <h2 className='mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light/75'>A Little About Me</h2>
                             <p className='font-medium '>
                                 Hi, I&apos;m Charles Jones, a web developer and software engineer with a passion for creating beautiful, functional,
                                 and user-centered digital experiences. I am always looking for
@@ -37,10 +37,11 @@ const about = () => {
                             </p>
                         </div>
                         <div className='col-span-4 relative h-max rounded-2xl 
-                            border-2 border-solid border-dark bg-light p-8'
+                            border-2 border-solid border-dark bg-light p-8 
+                            dark:bg-dark dark:border-light'
                         >
                             <div className='absolute top-0 -right-2 -z-10 w-[102%] h-[103%] 
-                                rounded-[2rem] bg-dark'
+                                rounded-[2rem] bg-dark dark:bg-light'
                             />
                             <Image src={profilePic} alt="CharlieJ"
                                 className='w-full h-auto rounded-2xl'
