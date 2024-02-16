@@ -31,7 +31,7 @@ const singleWord = {
 const AnimatedText = ({ text, className = "" }) => {
     return (
         <div className='w-full mx-auto py-2 fkex items-center justify-center text-center
-            overflow-hidden '
+            overflow-hidden sm:py-0'
 
         >
 
