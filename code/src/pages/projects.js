@@ -5,7 +5,9 @@ import AnimatedText from '@/components/AnimatedText'
 import Link from 'next/link'
 import Image from 'next/image'
 import { GithubIcon } from '@/components/Icons'
-import project1 from "../../public/images/projects/crypto-screener-cover-image.jpg";
+import project1 from "../../public/images/projects/runbroW.png";
+import project2 from "../../public/images/projects/lotteryW.png";
+import project3 from "../../public/images/projects/random-teamW.png";
 import TransitionEffect from '@/components/TransitionEffect'
 
 
@@ -106,7 +108,7 @@ const Project = ({ title, type, img, link, github }) => {
                     <Link href={link} target="_blank" className='underline
                         underline-offset-2 text-lg font-semibold md:text-base'
                     >
-                        Visit Site
+                        Visit Project
                     </Link>
                     <Link href={github} target="_blank" className='w-8 
                         md:w-6'
@@ -133,7 +135,7 @@ const projects = () => {
 
             <main className='w-full mb-16 flex flex-col items-center justify-center dark:text-light'>
                 <Layout className='pt-16'>
-                    <AnimatedText text="Imagination Builds Knowledge!" className='mb-16
+                    <AnimatedText text="Brick by Brick Builds Knowledge!" className='mb-16
                     lg:text-!7xl sm:mb-8 sm:!text-6xl xs:!text-4xl'
                     />
 
@@ -146,13 +148,14 @@ const projects = () => {
                             <FeaturedProject
 
 
-                                title="Crypto Screener Application"
+                                title="RunBro"
                                 img={project1}
-                                summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-local currency."
-                                link="/"
-                                github="/"
+                                summary="RunBro is a decentralized platform that rewards users for their physical activity by integrating the 
+                                Google Fit API with a unique reward model. Users can buy and sell fitness-related items (such as shoes) while 
+                                earning native tokens (RBT) based on their steps. The smart contracts are built on Solidity and Foundry. 
+                                The front-end utilizes the MERN stack."
+                                link="https://github.com/ChainlinkHackaton/SmartContracts"
+                                github="https://github.com/ChainlinkHackaton/SmartContracts"
                                 type="Featured Project"
                             />
                         </div>
@@ -160,20 +163,20 @@ local currency."
                         {/* short banner, 2 projects */}
                         <div className='col-span-6 sm:col-span-12'>
                             <Project
-                                title="Crypto Screener Application"
-                                img={project1}
-                                link="/"
-                                github="/"
+                                title="Smart Contract Lottery"
+                                img={project2}
+                                link="https://github.com/SupaMega24/smart-contract-lottery"
+                                github="https://github.com/SupaMega24/smart-contract-lottery"
                                 type="Project"
                             />
                         </div>
 
                         <div className='col-span-6 sm:col-span-12'>
                             <Project
-                                title="Crypto Screener Application"
-                                img={project1}
-                                link="/"
-                                github="/"
+                                title="Random Team Selector"
+                                img={project3}
+                                link="https://github.com/SupaMega24/fantasy-team-vrf"
+                                github="https://github.com/SupaMega24/fantasy-team-vrf"
                                 type="Project"
                             />
                         </div>
