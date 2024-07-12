@@ -103,7 +103,7 @@ const NavBar = () => {
                         }
                     </button>
 
-                    <motion.a href="https://twitter.com/noobsLearn_code" target={"_blank"}
+                    <motion.a href="https://x.com/charliej_dev" target={"_blank"}
                         whileHover={{ y: -2 }}
                         whileTap={{ scale: 0.9 }}
                         className='w-6 mr-3'
@@ -162,7 +162,7 @@ const NavBar = () => {
                                 }
                             </button>
 
-                            <motion.a href="https://twitter.com/noobsLearn_code" target={"_blank"}
+                            <motion.a href="https://x.com/charliej_dev" target={"_blank"}
                                 whileHover={{ y: -2 }}
                                 whileTap={{ scale: 0.9 }}
                                 className='w-6 mr-3 sm:mx-1'

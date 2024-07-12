@@ -13,7 +13,7 @@ const Footer = () => {
             >
                 <span>{new Date().getFullYear} &copy; All Rights Reserved.</span>
                 <div className='flex items-center lg:py-2'>
-                    Build With <span>&#x1F31F; </span>
+                    Built by <span>&#x1F31F; </span>
                     <Link href="/" target={'_blank'} className='underline underline-offset-4'>CharlieJ</Link>
                 </div>
                 <Link href="/" target={'_blank'} className='underline underline-offset-4'>Say Hello</Link>

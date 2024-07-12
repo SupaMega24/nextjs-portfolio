@@ -140,6 +140,8 @@ const projects = () => {
                     <div className='grid grid-cols-12 gap-24 gap-y-32 
                     xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0'
                     >
+
+                        {/* Long banner, main project */}
                         <div className='col-span-12'>
                             <FeaturedProject
 
@@ -155,6 +157,7 @@ local currency."
                             />
                         </div>
 
+                        {/* short banner, 2 projects */}
                         <div className='col-span-6 sm:col-span-12'>
                             <Project
                                 title="Crypto Screener Application"
