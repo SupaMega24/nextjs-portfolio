@@ -65,9 +65,23 @@ const Experience = () => {
 
                     <Details
 
-                        position="Software Engineer" company="100devs"
+                        position="Project Manager & Smart Contracts" company="RunBro"
+                        companyLink="https://x.com/RunBro_"
+                        time="2024-Present" address="(Remote) APAC"
+                        work="As a Project Manager and Smart Contract Developer for an emerging startup, 
+                        I am at the forefront of driving innovative blockchain solutions from the ground up. 
+                        My role encompasses designing and developing smart contracts using Solidity and Foundry, 
+                        ensuring they are secure and efficient. I coordinate the initial project stages, managing 
+                        cross-functional teams and setting the foundation for future growth. With a focus on building 
+                        robust blockchain applications, I navigate the complexities of startup environments, turning 
+                        visionary ideas into actionable plans and tangible results."
+                    />
+
+                    <Details
+
+                        position="Software/Smart Contract Developer" company="100devs/Freelance"
                         companyLink="https://100devs.org/"
-                        time="2023-Present" address="(Remote) Los Angeles, CA"
+                        time="2023-Present" address="(Remote) APAC"
                         work="Collaboratively contributed to the development team, actively 
                         participating in the construction of modern and responsive web 
                         applications by leveraging the MERN stack. Played a key role in the 
@@ -85,14 +99,14 @@ const Experience = () => {
                         position="Co-Founder" company="victoria ELD"
                         time="2014-2022" address="Cheonan/Seoul, South Korea"
                         work="Was instrumental in guiding
-and empowering thousands of students and professionals. My consultancy
-also extended to prestigious corporations in Korea, such as IMB, Google,
-Goldman Sachs, POSCO, Deloitte, Samil PWC, Adidas, eBay, General
-Motors, P&G, Shinsegae, LG Electronics and Life Sciences, and SK
-Energy. Our focus was in honing their English communication skills, ensuring success in
-pivotal moments like job and university entrance interviews, as well as
-achieving targeted scores in exams including IELTS, TOEFL, TOEIC,
-TOEFL JR, GRE, SAT, and OPIc."
+                        and empowering thousands of students and professionals. My consultancy
+                        also extended to prestigious corporations in Korea, such as IMB, Google,
+                        Goldman Sachs, POSCO, Deloitte, Samil PWC, Adidas, eBay, General
+                        Motors, P&G, Shinsegae, LG Electronics and Life Sciences, and SK
+                        Energy. Our focus was in honing their English communication skills, ensuring success in
+                        pivotal moments like job and university entrance interviews, as well as
+                        achieving targeted scores in exams including IELTS, TOEFL, TOEIC,
+                        TOEFL JR, GRE, SAT, and OPIc."
 
                     />
 

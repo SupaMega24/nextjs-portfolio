@@ -56,8 +56,8 @@ const Education = () => {
                     <Details
 
                         type="Online Coursework" time="2023-present"
-                        place="The Odin Project | Scrimba"
-                        info="Couses focused on learning and becoming proficient in JavaScript and Python."
+                        place="Cyfrin Updraft|The Odin Project | 100devs"
+                        info="Couses focused on learning and becoming proficient in Solidity, Foundry, and JavaScript."
                     />
 
                     <Details

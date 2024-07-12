@@ -28,27 +28,29 @@ const about = () => {
 
                         {/* about column */}
 
-                        <div className='col-span-4 flex flex-col items-start justify-start md:order-2 md:col-span-8'>
+                        <div className='col-span-5 flex flex-col items-start justify-start md:order-2 md:col-span-8'>
                             <h2 className='mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light/75'>A Little About Me</h2>
                             <p className='font-medium '>
-                                Hi, I&apos;m Charles Jones, a web developer and software engineer with a passion for creating beautiful, functional,
-                                and user-centered digital experiences. I am always looking for
-                                new and innovative ways to bring my clients&apos; visions to life.
+                                I'm a former global business English coach turned web3 developer with a unique story and a burning passion for coding.
+                                My journey into the tech world started unexpectedly when I was helping a client solve a problem and stumbled upon the
+                                fascinating world of programming. It didn't take long before I was completely hooked, especially on the revolutionary potential of web3.
                             </p>
                             <p className='font-medium my-4'>
-                                I believe that web development is about more than just making things look pretty – it&apos;s about solving problems and
-                                creating intuitive, enjoyable experiences for users.
+                                Like many, I faced significant challenges when the COVID-19 pandemic hit. My business, which I had poured my heart and soul into, was severely impacted.
+                                But rather than let this setback define me, I decided to seize the opportunity to pivot and turn my newfound passion into a career.
                             </p>
                             <p className='font-medium '>
-                                Whether I&apos;m working on a website, mobile app, or
-                                other digital product, I bring my commitment to design excellence and user-centered thinking to
-                                every project I work on. I look forward to the opportunity to bring my skills and passion to your next project.
+                                Since then, I've immersed myself in the world of web3 development, diving deep into blockchain technology and smart contracts. I'm committed to leveraging my
+                                skills to contribute to innovative projects that shape the future of the internet.
+                            </p>
+                            <p className='font-medium my-4'>
+                                Now, I'm on the lookout for exciting opportunities to bring my unique perspective and dedication to a forward-thinking team. Let's build something amazing together!
                             </p>
                         </div>
 
                         {/* profilePic column */}
 
-                        <div className='col-span-4 relative h-max rounded-2xl 
+                        <div className='col-span-3 relative h-max rounded-2xl 
                             border-2 border-solid border-dark bg-light p-8 
                             dark:bg-dark dark:border-light md:order-1 md:col-span-8'
                         >
