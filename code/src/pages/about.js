@@ -31,20 +31,20 @@ const about = () => {
                         <div className='col-span-5 flex flex-col items-start justify-start md:order-2 md:col-span-8'>
                             <h2 className='mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light/75'>A Little About Me</h2>
                             <p className='font-medium '>
-                                I'm a former global business English coach turned web3 developer with a unique story and a burning passion for coding.
+                                I&apos;m a former global business English coach turned web3 developer with a unique story and a burning passion for coding.
                                 My journey into the tech world started unexpectedly when I was helping a client solve a problem and stumbled upon the
-                                fascinating world of programming. It didn't take long before I was completely hooked, especially on the revolutionary potential of web3.
+                                fascinating world of programming. It didn&apos;t take long before I was completely hooked, especially on the revolutionary potential of web3.
                             </p>
                             <p className='font-medium my-4'>
                                 Like many, I faced significant challenges when the COVID-19 pandemic hit. My business, which I had poured my heart and soul into, was severely impacted.
                                 But rather than let this setback define me, I decided to seize the opportunity to pivot and turn my newfound passion into a career.
                             </p>
                             <p className='font-medium '>
-                                Since then, I've immersed myself in the world of web3 development, diving deep into blockchain technology and smart contracts. I'm committed to leveraging my
+                                Since then, I&apos;ve immersed myself in the world of web3 development, diving deep into blockchain technology and smart contracts. I&apos;m committed to leveraging my
                                 skills to contribute to innovative projects that shape the future of the internet.
                             </p>
                             <p className='font-medium my-4'>
-                                Now, I'm on the lookout for exciting opportunities to bring my unique perspective and dedication to a forward-thinking team. Let's build something amazing together!
+                                Now, I&apos;m on the lookout for exciting opportunities to bring my unique perspective and dedication to a forward-thinking team. Let&apos;s build something amazing together!
                             </p>
                         </div>
 
