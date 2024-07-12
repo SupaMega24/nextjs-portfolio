@@ -10,9 +10,9 @@ const HireMeButton = () => {
         >
             <div className='w-48 h-auto flex items-center justify-center relative md:w-24 '>
 
-                <CircularText className={"fill-dark animate-spin-slow dark:fill-light"} />
+                {/* <CircularText className={"fill-dark animate-spin-slow dark:fill-light"} /> */}
 
-                <Link href="mailto:victoriaeld24@gmail.com"
+                <Link href="mailto:charliej.dev@outlook.com"
                     className='flex items-center justify-center absolute 
                     left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 bg-blue
                     text-light shadow-md border border-solid border-blue

@@ -30,16 +30,17 @@ export default function Home() {
             </div>
             <div className='w-1/2 flex flex-col items-center self-center lg:w-full lg:text-center'>
 
-              <AnimatedText text="Turning Ideas Into Reality With Code." className='!text-6xl !text-left
+              <AnimatedText text="On a Mission to Build and Improve Web3" className='!text-6xl !text-left
               xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-5xl sm:!text-3xl'
               />
 
               <p className='my=4 text-base font-medium md:text-sm sm:text-xs'>
-                As a skilled full-stack developer, I am dedicated to turning ideas into innovative web applications.
-                Explore my latest projects and articles, showcasing my expertise in React.js and web development.
+                I want to help connect the world to web3 by developing secure and
+                user-friendly smart contracts. My usually tools of choice are Solidity, Foundry, and JavaScript.
+                Explore my latest projects and articles, showcasing my love for web3 learning and development.
               </p>
               <div className='flex items-center self-start mt-2 lg:self-center'>
-                <Link href="/dummy.pdf" target={'_blank'}
+                <Link href="/Tech Resume_Web3.pdf" target={'_blank'}
                   className='flex items-center bg-dark text-light p-2.5 px-6
                   rounded-lg text-lg font-semibold hover:bg-light hover:text-dark 
                   border-2 border-solid border-transparent hover:border-dark
