@@ -1,4 +1,5 @@
 import React from 'react'
+import { Analytics } from "@vercel/analytics/react"
 
 const Layout = ({ children, className = "" }) => {
     return (
@@ -6,7 +7,7 @@ const Layout = ({ children, className = "" }) => {
            dark:bg-dark xl:p-24 lg:p-16 md:p-12 sm:p-8 ${className}`}>
 
             {children}
-
+            <Analytics />
         </div>
     )
 }
