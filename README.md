@@ -2,9 +2,7 @@
 
 ## Created with Next.Js, Tailwind CSS, and Framer-motion🌟
 
-[Live Preview](https://charliej.vercel.app/ target="_blank")
-
-<a href="http://google.com/" target="_blank">Hello, google!</a>
+[Live Preview](https://charliej.vercel.app/)
 
 ### Resources Used in This Project
 
