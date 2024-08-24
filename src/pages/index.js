@@ -50,7 +50,7 @@ export default function Home() {
                 >
                   Resume <LinkArrow className={"w-6 ml-1"} />
                 </Link>
-                <Link href="mailto:victoriaeld24@gmail.com"
+                <Link href="mailto:charliej.dev@outlook.com"
                   className='ml-4 text-lg font-medium capitalize text-dark underline dark:text-light
                   md:text-base'
                 >
