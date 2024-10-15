@@ -127,7 +127,7 @@ const projects = () => {
         <>
 
             <Head>
-                <title>CharlieJ | Projects Page</title>
+                <title>CharlieJ | Developer Projects Page</title>
                 <meta name="description" content="any description" />
             </Head>
 
