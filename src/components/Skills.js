@@ -35,24 +35,24 @@ const Skills = () => {
                 sm:bg-circularLightSm sm:dark:bg-circularDarkSm'
             >
                 <motion.div className='flex items-center justify-center 
-                    rounded-full font-semibold bg-dark text-light 
+                    rounded-full font-semibold bg-blue text-light 
                     p-8 shadow-dark cursor-pointer dark:text-dark dark:bg-light
                     lg:p-6 md:p-4 xs:test-xs xs:p-2'
 
                     whileHover={{ scale: 1.05 }}
                 >
-                    Dev
+                    WEB3
                 </motion.div>
 
                 <Skill name="Foundry" x="-22vw" y="2vw" />
                 <Skill name="Solidity" x="-5vw" y="-10vw" />
                 <Skill name="TailwindCSS" x="20vw" y="6vw" />
-                <Skill name="FramerMotion" x="0vw" y="14vw" />
+                <Skill name="Content Writing" x="0vw" y="14vw" />
                 <Skill name="JavaScript" x="-20vw" y="-15vw" />
                 <Skill name="ReactJS" x="32vw" y="-5vw" />
                 <Skill name="NextJS" x="0vw" y="-20vw" />
                 <Skill name="Smart Contracts" x="-25vw" y="18vw" />
-                <Skill name="Team Management" x="15vw" y="-12vw" />
+                <Skill name="Technical Writing" x="15vw" y="-12vw" />
                 <Skill name="Web3 Development" x="18vw" y="18vw" />
                 <Skill name="Python" x="-28vw" y="-6vw" />
             </div>

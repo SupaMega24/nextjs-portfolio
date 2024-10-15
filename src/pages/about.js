@@ -40,8 +40,10 @@ const about = () => {
                                 But rather than let this setback define me, I decided to seize the opportunity to pivot and turn my newfound passion into a career.
                             </p>
                             <p className='font-medium '>
-                                Since then, I&apos;ve immersed myself in the world of web3 development, diving deep into blockchain technology and smart contracts. I&apos;m committed to leveraging my
-                                skills to contribute to innovative projects that shape the future of the internet.
+                                Since then, I&apos;ve immersed myself in the world of web3 development, diving deep into blockchain technology and smart contracts. Today, I focus on producing
+                                in-depth technical content and conducting research on emerging technologies in the Web3 space. My work includes creating detailed explainers, documentation, and
+                                educational resources that empower both developers and non-technical audiences to engage with decentralized systems. I am excited to collaborate with innovative
+                                teams to build content that drives forward the understanding and development of the decentralized web.
                             </p>
                             <p className='font-medium my-4'>
                                 Now, I&apos;m on the lookout for exciting opportunities to bring my unique perspective and dedication to a forward-thinking team. Let&apos;s build something amazing together!

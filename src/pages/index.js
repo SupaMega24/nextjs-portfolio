@@ -35,9 +35,12 @@ export default function Home() {
               />
 
               <p className='my=4 text-base font-medium md:text-sm sm:text-xs'>
-                I want to help connect the world to web3 by developing secure and
-                user-friendly smart contracts. My usually tools of choice are Solidity, Foundry, and JavaScript.
-                Explore my latest projects and articles, showcasing my love for web3 learning and development.
+                As a technical content writer specializing in web3, I aim to bridge
+                the gap between complex technology and a wider audience. With a strong
+                foundation in Solidity, Foundry, and JavaScript, I leverage my development
+                experience to create informative and engaging content. Explore my latest
+                articles and research, where I delve into the intricacies of web3 and its
+                potential to shape the future.
               </p>
               <div className='flex items-center self-start mt-2 lg:self-center'>
                 <Link href="/Tech Resume_Web3.pdf" target={'_blank'}

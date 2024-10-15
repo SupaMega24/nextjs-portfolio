@@ -65,16 +65,17 @@ const Experience = () => {
 
                     <Details
 
-                        position="Project Manager & Smart Contracts" company="RunBro"
-                        companyLink="https://x.com/RunBro_"
+                        position="Technical Content Writer" company="Cyfrin"
+                        companyLink="https://www.cyfrin.io/"
                         time="2024-Present" address="(Remote) APAC"
-                        work="As a Project Manager and Smart Contract Developer for an emerging startup, 
-                        I am at the forefront of driving innovative blockchain solutions from the ground up. 
-                        My role encompasses designing and developing smart contracts using Solidity and Foundry, 
-                        ensuring they are secure and efficient. I coordinate the initial project stages, managing 
-                        cross-functional teams and setting the foundation for future growth. With a focus on building 
-                        robust blockchain applications, I navigate the complexities of startup environments, turning 
-                        visionary ideas into actionable plans and tangible results."
+                        work="At Cyfrin, I developed comprehensive educational content focused on blockchain 
+                        and Web3 technologies. Notably, I authored 34 in-depth lessons on Account Abstraction, 
+                        breaking down complex concepts into accessible learning materials. Additionally, I crafted 
+                        several high-level glossary explainers, ranging from 500 to 1300 words, covering critical 
+                        topics such as static analysis, hash functions, decentralized applications (dApps), and 
+                        automated market makers (AMMs). These materials were designed to bridge knowledge gaps for 
+                        both developers and non-technical audiences, demonstrating my ability to deliver clear and 
+                        insightful technical content."
                     />
 
                     <Details
