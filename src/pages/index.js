@@ -43,7 +43,7 @@ export default function Home() {
                 potential to shape the future.
               </p>
               <div className='flex items-center self-start mt-2 lg:self-center'>
-                <Link href="/Tech Resume_Web3.pdf" target={'_blank'}
+                <Link href="https://docs.google.com/document/d/1e0JpO-gUkPv4W76YErJFTBYMzhAsi82eWUyDpgsgItg/edit?usp=sharing" target={'_blank'}
                   className='flex items-center bg-dark text-light p-2.5 px-6
                   rounded-lg text-lg font-semibold hover:bg-light hover:text-dark 
                   border-2 border-solid border-transparent hover:border-dark
