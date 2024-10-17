@@ -8,6 +8,8 @@ import { GithubIcon } from '@/components/Icons'
 import writing1 from "../../public/images/projects/cyfrin.png";
 import writing2 from "../../public/images/projects/bod.png";
 import writing3 from "../../public/images/projects/eps.png";
+import writing4 from "../../public/images/projects/static-analysis.png";
+import writing5 from "../../public/images/projects/hash-function.png";
 import TransitionEffect from '@/components/TransitionEffect'
 
 const FeaturedProject = ({ type, title, summary, img, link, github }) => {
@@ -69,7 +71,7 @@ const FeaturedProject = ({ type, title, summary, img, link, github }) => {
     )
 }
 
-const Project = ({ title, type, img, link, github, discord }) => {
+const Project = ({ title, type, img, link, github }) => {
     return (
         <article className='w-full flex items-center justify-center rounded-2xl
             border border-solid border-dark bg-light p-6 relative flex-col shadow-xl
@@ -158,7 +160,27 @@ const projects = () => {
                             />
                         </div>
 
-                        {/* short banner, 2 projects */}
+                        {/* short banner, 4 projects */}
+                        <div className='col-span-6 sm:col-span-12'>
+                            <Project
+                                title="Static Analysis"
+                                img={writing4}
+                                link="https://www.cyfrin.io/glossary/static-analysis"
+                                github="https://www.cyfrin.io/glossary/static-analysis"
+                                type="Cyfrin Glossary"
+                            />
+                        </div>
+
+                        <div className='col-span-6 sm:col-span-12'>
+                            <Project
+                                title="Hash Function"
+                                img={writing5}
+                                link="https://www.cyfrin.io/glossary/hash-function"
+                                github="https://www.cyfrin.io/glossary/hash-function"
+                                type="Cyfrin Glossary"
+                            />
+                        </div>
+
                         <div className='col-span-6 sm:col-span-12'>
                             <Project
                                 title="Battle of the Docs"
