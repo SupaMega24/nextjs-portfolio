@@ -195,7 +195,7 @@ const projects = () => {
                             <Project
                                 title="EPS"
                                 img={writing3}
-                                link="https://sparras1.cafe24.com/default/index.php"
+                                link="https://epsdream.com/default/"
                                 github="https://github.com/SupaMega24/eps-content"
                                 type="Web Development Content"
                             />
