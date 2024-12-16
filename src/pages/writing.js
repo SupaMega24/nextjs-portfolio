@@ -6,7 +6,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import { GithubIcon } from '@/components/Icons'
 import writing1 from "../../public/images/projects/cyfrin.png";
-import writing2 from "../../public/images/projects/bod.png";
+import writing2 from "../../public/images/projects/eip.png";
 import writing3 from "../../public/images/projects/eps.png";
 import writing4 from "../../public/images/projects/static-analysis.png";
 import writing5 from "../../public/images/projects/hash-function.png";
@@ -183,10 +183,10 @@ const projects = () => {
 
                         <div className='col-span-6 sm:col-span-12'>
                             <Project
-                                title="Battle of the Docs"
+                                title="Demystifying EIPs"
                                 img={writing2}
-                                link="https://battleofthedocs.hashnode.dev/"
-                                github="https://github.com/SupaMega24/battle-of-the-docs"
+                                link="https://charliej.hashnode.dev/demystifying-eips-the-blueprint-for-ethereums-evolution"
+                                github="https://github.com/SupaMega24"
                                 type="web3 Educational Content"
                             />
                         </div>

@@ -154,7 +154,7 @@ const projects = () => {
                                 Google Fit API with a unique reward model. Users can buy and sell fitness-related items (such as shoes) while 
                                 earning native tokens (RBT) based on their steps. The smart contracts are built on Solidity and Foundry. 
                                 The front-end utilizes the MERN stack."
-                                link="https://www.runbro.net/"
+                                link="https://runbro.vercel.app/"
                                 github="https://github.com/ChainlinkHackaton/SmartContracts"
                                 type="Featured Project"
                             />

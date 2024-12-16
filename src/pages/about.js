@@ -31,7 +31,7 @@ const about = () => {
                         <div className='col-span-5 flex flex-col items-start justify-start md:order-2 md:col-span-8'>
                             <h2 className='mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light/75'>A Little About Me</h2>
                             <p className='font-medium '>
-                                I&apos;m a former global business English coach turned web3 developer with a unique story and a burning passion for coding.
+                                I&apos;m a former global business English coach turned web3 technical writer with a unique story and a burning passion for blockchain technology.
                                 My journey into the tech world started unexpectedly when I was helping a client solve a problem and stumbled upon the
                                 fascinating world of programming. It didn&apos;t take long before I was completely hooked, especially on the revolutionary potential of web3.
                             </p>
