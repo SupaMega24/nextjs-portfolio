@@ -163,7 +163,7 @@ const projects = () => {
                         {/* short banner, 2 projects */}
                         <div className='col-span-6 sm:col-span-12'>
                             <Project
-                                title="Smart Contract Lottery"
+                                title="Smart Contract Lottery: Chainlink Automation"
                                 img={project2}
                                 link="https://github.com/SupaMega24/smart-contract-lottery"
                                 github="https://github.com/SupaMega24/smart-contract-lottery"
@@ -173,7 +173,7 @@ const projects = () => {
 
                         <div className='col-span-6 sm:col-span-12'>
                             <Project
-                                title="Random Team Selector"
+                                title="Random Team Selector: Chainlink VRF"
                                 img={project3}
                                 link="https://github.com/SupaMega24/fantasy-team-vrf"
                                 github="https://github.com/SupaMega24/fantasy-team-vrf"
