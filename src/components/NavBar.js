@@ -84,9 +84,8 @@ const NavBar = () => {
                 <nav>
                     <CustomLink href="/" title="Home" className='mr-4' />
                     <CustomLink href="/about" title="About" className='mx-4' />
-                    <CustomLink href="/projects" title="Dev Projects" className='mx-4' />
                     <CustomLink href="/writing" title="Tech Writing" className='mx-4' />
-                    <a href="https://charliej.hashnode.dev/" target={"_blank"} className='ml-4'>Articles</a>
+                    <CustomLink href="/projects" title="Dev Projects" className='mx-4' />
                 </nav>
 
                 <nav className='flex items-center justify-center flex-wrap'>
@@ -144,13 +143,8 @@ const NavBar = () => {
                         <nav className='flex items-center flex-col justify-center'>
                             <CustomMobileLink href="/" title="Home" className='' toggle={handleClick} />
                             <CustomMobileLink href="/about" title="About" className='' toggle={handleClick} />
-                            <CustomMobileLink href="/projects" title="Dev Projects" className='' toggle={handleClick} />
                             <CustomMobileLink href="/writing" title="Tech Writing" className='' toggle={handleClick} />
-                            <a href="https://charliej.hashnode.dev/" target={"_blank"} className='text-light 
-                            dark:text-dark mb-2 mt-2 '>
-                                Articles
-                            </a>
-
+                            <CustomMobileLink href="/projects" title="Dev Projects" className='' toggle={handleClick} />
                         </nav>
 
                         <nav className='flex items-center justify-center flex-wrap mt-2'>

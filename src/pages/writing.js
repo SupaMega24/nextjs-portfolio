@@ -7,7 +7,7 @@ import Image from 'next/image'
 import { GithubIcon } from '@/components/Icons'
 import writing1 from "../../public/images/projects/cyfrin.png";
 import writing2 from "../../public/images/projects/eip.png";
-import writing3 from "../../public/images/projects/eps.png";
+import writing3 from "../../public/images/projects/liquidityPool.jpg";
 import writing4 from "../../public/images/projects/static-analysis.png";
 import writing5 from "../../public/images/projects/hash-function.png";
 import TransitionEffect from '@/components/TransitionEffect'
@@ -29,7 +29,7 @@ const FeaturedProject = ({ type, title, summary, img, link, github }) => {
                 className='w-1/2 cursor-pointer overflow-hidden rounded-lg 
                     lg:w-full'
             >
-                <Image src={img} alt={title} className='w-full h-auto'
+                <Image src={img} alt={title} className='w-full h-300px object-cover'
                     priority
                     sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 50vw"
                 />
@@ -85,7 +85,7 @@ const Project = ({ title, type, img, link, github }) => {
             <Link href={link} target="_blank" className='w-full cursor-pointer
                 overflow-hidden rounded-lg'
             >
-                <Image src={img} alt={title} className='w-full h-auto'
+                <Image src={img} alt={title} className='w-full h-[400px] object-cover'
 
                 />
             </Link>
@@ -148,26 +148,35 @@ const projects = () => {
                         <div className='col-span-12'>
                             <FeaturedProject
 
-
-                                title="Cyfrin Updraft"
+                                title="FluentDev: English for Web3 and DeFi Professionals"
                                 img={writing1}
-                                summary="Cyfrin is a blockchain security firm specializing in smart contract audits and Web3 education. 
-                                I write technical content for them, including a comprehensive 34-lesson series on Account Abstraction in the 
-                                Advanced Foundry Course, aimed at making complex blockchain concepts more accessible to learners and developers."
-                                link="https://updraft.cyfrin.io/courses/advanced-foundry"
-                                github="https://github.com/Cyfrin/Updraft/tree/main/courses/advanced-foundry/6-account-abstraction"
-                                type="Technical Content Writing"
+                                summary="FluentDev is an educational platform I am currently building to help Web3 developers improve their English communication skills while mastering blockchain concepts. 
+                                The lessons I'm creating aim to combine technical topics such as smart contract functionality, consensus mechanisms, and decentralized finance (DeFi) with targeted language instruction. 
+                                Content is designed in an academic structure with clear analogies and real-world applications."
+                                link="https://fluentdev.vercel.app/"
+                                github="https://github.com/SupaMega24/fluentDev"
+                                type="Technical Educational Content Design & Writing"
                             />
                         </div>
 
                         {/* short banner, 4 projects */}
                         <div className='col-span-6 sm:col-span-12'>
                             <Project
-                                title="Static Analysis"
+                                title="Automated Market Maker (AMM)"
                                 img={writing4}
-                                link="https://www.cyfrin.io/glossary/static-analysis"
-                                github="https://www.cyfrin.io/glossary/static-analysis"
-                                type="Cyfrin Glossary"
+                                link="https://www.cyfrin.io/glossary/amm"
+                                github="https://www.cyfrin.io/glossary/amm"
+                                type="DeFi Concept Explainer"
+                            />
+                        </div>
+
+                        <div className='col-span-6 sm:col-span-12'>
+                            <Project
+                                title="Liquidity Pool"
+                                img={writing3}
+                                link="https://www.cyfrin.io/glossary/liquidity-pool"
+                                github="https://www.cyfrin.io/glossary/liquidity-pool"
+                                type="DeFi Concept Explainer"
                             />
                         </div>
 
@@ -177,7 +186,7 @@ const projects = () => {
                                 img={writing5}
                                 link="https://www.cyfrin.io/glossary/hash-function"
                                 github="https://www.cyfrin.io/glossary/hash-function"
-                                type="Cyfrin Glossary"
+                                type="Web3 Concept Explainer"
                             />
                         </div>
 
@@ -187,19 +196,10 @@ const projects = () => {
                                 img={writing2}
                                 link="https://charliej.hashnode.dev/demystifying-eips-the-blueprint-for-ethereums-evolution"
                                 github="https://github.com/SupaMega24"
-                                type="web3 Educational Content"
+                                type="Web3 Educational Content"
                             />
                         </div>
 
-                        <div className='col-span-6 sm:col-span-12'>
-                            <Project
-                                title="EPS"
-                                img={writing3}
-                                link="https://epsdream.com/default/"
-                                github="https://github.com/SupaMega24/eps-content"
-                                type="Web Development Content"
-                            />
-                        </div>
                     </div>
 
                 </Layout>
