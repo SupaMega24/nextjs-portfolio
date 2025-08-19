@@ -1,10 +1,11 @@
 import React from 'react'
 import Link from 'next/link'
 import { motion } from "framer-motion"
+import Image from 'next/image';
 
 const MotionLink = motion(Link);
 
-const Logo = () => {
+const Logo = ({ size = 160 }) => {
     return (
         <div className='flex items-center justify-center mt-2'>
 
@@ -17,7 +18,14 @@ const Logo = () => {
                     transition: { duration: 1, repeat: Infinity }
                 }}
             >
-                CJ
+                <Image
+                    src="/logo.png"
+                    alt="Site Logo"
+                    width={size}
+                    height={size}
+                    className="rounded-full"
+                    priority
+                />
             </MotionLink>
 
         </div>
