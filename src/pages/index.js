@@ -35,7 +35,7 @@ export default function Home() {
               </p>
               <div className='flex items-center mt-2'>
                 <Link
-                  href="https://docs.google.com/document/d/1e0JpO-gUkPv4W76YErJFTBYMzhAsi82eWUyDpgsgItg/edit?usp=sharing"
+                  href="https://drive.google.com/file/d/1TKOmVEwGZg3X9HkiJpSdeB3XPPRqPaj7/view?usp=sharing"
                   target={'_blank'}
                   className='flex items-center bg-dark text-light p-2.5 px-6
                   rounded-lg text-lg font-semibold hover:bg-light hover:text-dark 
